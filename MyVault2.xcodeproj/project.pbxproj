@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5C67861D585FB3003B7B35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C67851D585FB3003B7B35 /* AppDelegate.swift */; };
+		BF5C67881D585FB3003B7B35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C67871D585FB3003B7B35 /* ViewController.swift */; };
+		BF5C678B1D585FB3003B7B35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5C67891D585FB3003B7B35 /* Main.storyboard */; };
+		BF5C678E1D585FB3003B7B35 /* MyVault2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF5C678C1D585FB3003B7B35 /* MyVault2.xcdatamodeld */; };
+		BF5C67901D585FB3003B7B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5C678F1D585FB3003B7B35 /* Assets.xcassets */; };
+		BF5C67931D585FB3003B7B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5C67911D585FB3003B7B35 /* LaunchScreen.storyboard */; };
+		BF5C679E1D585FB3003B7B35 /* MyVault2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C679D1D585FB3003B7B35 /* MyVault2Tests.swift */; };
+		BF5C67A91D585FB3003B7B35 /* MyVault2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C67A81D585FB3003B7B35 /* MyVault2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF5C679A1D585FB3003B7B35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF5C677A1D585FB3003B7B35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5C67811D585FB3003B7B35;
+			remoteInfo = MyVault2;
+		};
+		BF5C67A51D585FB3003B7B35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF5C677A1D585FB3003B7B35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5C67811D585FB3003B7B35;
+			remoteInfo = MyVault2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF5C67821D585FB3003B7B35 /* MyVault2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVault2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5C67851D585FB3003B7B35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF5C67871D585FB3003B7B35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF5C678A1D585FB3003B7B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF5C678D1D585FB3003B7B35 /* MyVault2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyVault2.xcdatamodel; sourceTree = "<group>"; };
+		BF5C678F1D585FB3003B7B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF5C67921D585FB3003B7B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF5C67941D585FB3003B7B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5C67991D585FB3003B7B35 /* MyVault2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyVault2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5C679D1D585FB3003B7B35 /* MyVault2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVault2Tests.swift; sourceTree = "<group>"; };
+		BF5C679F1D585FB3003B7B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5C67A41D585FB3003B7B35 /* MyVault2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyVault2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5C67A81D585FB3003B7B35 /* MyVault2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVault2UITests.swift; sourceTree = "<group>"; };
+		BF5C67AA1D585FB3003B7B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5C677F1D585FB3003B7B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C67961D585FB3003B7B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C67A11D585FB3003B7B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF5C67791D585FB3003B7B35 = {
+			isa = PBXGroup;
+			children = (
+				BF5C67841D585FB3003B7B35 /* MyVault2 */,
+				BF5C679C1D585FB3003B7B35 /* MyVault2Tests */,
+				BF5C67A71D585FB3003B7B35 /* MyVault2UITests */,
+				BF5C67831D585FB3003B7B35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5C67831D585FB3003B7B35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5C67821D585FB3003B7B35 /* MyVault2.app */,
+				BF5C67991D585FB3003B7B35 /* MyVault2Tests.xctest */,
+				BF5C67A41D585FB3003B7B35 /* MyVault2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5C67841D585FB3003B7B35 /* MyVault2 */ = {
+			isa = PBXGroup;
+			children = (
+				BF5C67851D585FB3003B7B35 /* AppDelegate.swift */,
+				BF5C67871D585FB3003B7B35 /* ViewController.swift */,
+				BF5C67891D585FB3003B7B35 /* Main.storyboard */,
+				BF5C678F1D585FB3003B7B35 /* Assets.xcassets */,
+				BF5C67911D585FB3003B7B35 /* LaunchScreen.storyboard */,
+				BF5C67941D585FB3003B7B35 /* Info.plist */,
+				BF5C678C1D585FB3003B7B35 /* MyVault2.xcdatamodeld */,
+			);
+			path = MyVault2;
+			sourceTree = "<group>";
+		};
+		BF5C679C1D585FB3003B7B35 /* MyVault2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BF5C679D1D585FB3003B7B35 /* MyVault2Tests.swift */,
+				BF5C679F1D585FB3003B7B35 /* Info.plist */,
+			);
+			path = MyVault2Tests;
+			sourceTree = "<group>";
+		};
+		BF5C67A71D585FB3003B7B35 /* MyVault2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF5C67A81D585FB3003B7B35 /* MyVault2UITests.swift */,
+				BF5C67AA1D585FB3003B7B35 /* Info.plist */,
+			);
+			path = MyVault2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5C67811D585FB3003B7B35 /* MyVault2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5C67AD1D585FB3003B7B35 /* Build configuration list for PBXNativeTarget "MyVault2" */;
+			buildPhases = (
+				BF5C677E1D585FB3003B7B35 /* Sources */,
+				BF5C677F1D585FB3003B7B35 /* Frameworks */,
+				BF5C67801D585FB3003B7B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyVault2;
+			productName = MyVault2;
+			productReference = BF5C67821D585FB3003B7B35 /* MyVault2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF5C67981D585FB3003B7B35 /* MyVault2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5C67B01D585FB3003B7B35 /* Build configuration list for PBXNativeTarget "MyVault2Tests" */;
+			buildPhases = (
+				BF5C67951D585FB3003B7B35 /* Sources */,
+				BF5C67961D585FB3003B7B35 /* Frameworks */,
+				BF5C67971D585FB3003B7B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5C679B1D585FB3003B7B35 /* PBXTargetDependency */,
+			);
+			name = MyVault2Tests;
+			productName = MyVault2Tests;
+			productReference = BF5C67991D585FB3003B7B35 /* MyVault2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF5C67A31D585FB3003B7B35 /* MyVault2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5C67B31D585FB3003B7B35 /* Build configuration list for PBXNativeTarget "MyVault2UITests" */;
+			buildPhases = (
+				BF5C67A01D585FB3003B7B35 /* Sources */,
+				BF5C67A11D585FB3003B7B35 /* Frameworks */,
+				BF5C67A21D585FB3003B7B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5C67A61D585FB3003B7B35 /* PBXTargetDependency */,
+			);
+			name = MyVault2UITests;
+			productName = MyVault2UITests;
+			productReference = BF5C67A41D585FB3003B7B35 /* MyVault2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF5C677A1D585FB3003B7B35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Fadhli;
+				TargetAttributes = {
+					BF5C67811D585FB3003B7B35 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BF5C67981D585FB3003B7B35 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BF5C67811D585FB3003B7B35;
+					};
+					BF5C67A31D585FB3003B7B35 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BF5C67811D585FB3003B7B35;
+					};
+				};
+			};
+			buildConfigurationList = BF5C677D1D585FB3003B7B35 /* Build configuration list for PBXProject "MyVault2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF5C67791D585FB3003B7B35;
+			productRefGroup = BF5C67831D585FB3003B7B35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5C67811D585FB3003B7B35 /* MyVault2 */,
+				BF5C67981D585FB3003B7B35 /* MyVault2Tests */,
+				BF5C67A31D585FB3003B7B35 /* MyVault2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5C67801D585FB3003B7B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5C67931D585FB3003B7B35 /* LaunchScreen.storyboard in Resources */,
+				BF5C67901D585FB3003B7B35 /* Assets.xcassets in Resources */,
+				BF5C678B1D585FB3003B7B35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C67971D585FB3003B7B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C67A21D585FB3003B7B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5C677E1D585FB3003B7B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5C67881D585FB3003B7B35 /* ViewController.swift in Sources */,
+				BF5C678E1D585FB3003B7B35 /* MyVault2.xcdatamodeld in Sources */,
+				BF5C67861D585FB3003B7B35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C67951D585FB3003B7B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5C679E1D585FB3003B7B35 /* MyVault2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C67A01D585FB3003B7B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5C67A91D585FB3003B7B35 /* MyVault2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF5C679B1D585FB3003B7B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5C67811D585FB3003B7B35 /* MyVault2 */;
+			targetProxy = BF5C679A1D585FB3003B7B35 /* PBXContainerItemProxy */;
+		};
+		BF5C67A61D585FB3003B7B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5C67811D585FB3003B7B35 /* MyVault2 */;
+			targetProxy = BF5C67A51D585FB3003B7B35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF5C67891D585FB3003B7B35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5C678A1D585FB3003B7B35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF5C67911D585FB3003B7B35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5C67921D585FB3003B7B35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF5C67AB1D585FB3003B7B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF5C67AC1D585FB3003B7B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF5C67AE1D585FB3003B7B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyVault2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fadhli.MyVault2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF5C67AF1D585FB3003B7B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyVault2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fadhli.MyVault2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF5C67B11D585FB3003B7B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyVault2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fadhli.MyVault2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyVault2.app/MyVault2";
+			};
+			name = Debug;
+		};
+		BF5C67B21D585FB3003B7B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyVault2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fadhli.MyVault2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyVault2.app/MyVault2";
+			};
+			name = Release;
+		};
+		BF5C67B41D585FB3003B7B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyVault2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fadhli.MyVault2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyVault2;
+			};
+			name = Debug;
+		};
+		BF5C67B51D585FB3003B7B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyVault2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fadhli.MyVault2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyVault2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5C677D1D585FB3003B7B35 /* Build configuration list for PBXProject "MyVault2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5C67AB1D585FB3003B7B35 /* Debug */,
+				BF5C67AC1D585FB3003B7B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5C67AD1D585FB3003B7B35 /* Build configuration list for PBXNativeTarget "MyVault2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5C67AE1D585FB3003B7B35 /* Debug */,
+				BF5C67AF1D585FB3003B7B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF5C67B01D585FB3003B7B35 /* Build configuration list for PBXNativeTarget "MyVault2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5C67B11D585FB3003B7B35 /* Debug */,
+				BF5C67B21D585FB3003B7B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF5C67B31D585FB3003B7B35 /* Build configuration list for PBXNativeTarget "MyVault2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5C67B41D585FB3003B7B35 /* Debug */,
+				BF5C67B51D585FB3003B7B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF5C678C1D585FB3003B7B35 /* MyVault2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF5C678D1D585FB3003B7B35 /* MyVault2.xcdatamodel */,
+			);
+			currentVersion = BF5C678D1D585FB3003B7B35 /* MyVault2.xcdatamodel */;
+			path = MyVault2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF5C677A1D585FB3003B7B35 /* Project object */;
+}
